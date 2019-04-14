@@ -1,0 +1,7 @@
+Clean labs from old files
+
+Include wildcards
+
+What's with xmobaxterm? Why in some modes special characters work and in some they don't?
+
+Warn students in advance about 3 attempts.
