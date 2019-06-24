@@ -78,7 +78,7 @@
 \begin{frame}[fragile]
   \frametitle{Where to get this tutorial}
   \begin{itemize}
-  \item Point your browser to  {\color{mycolorcli}\verb|https://git.rcc.uchicago.edu/ivy2/Linux|}
+  \item Point your browser to  {\color{mycolorcli}\verb|https://github.com/igory1999/Linux|}
   \end{itemize}
 \end{frame}
 
@@ -158,25 +158,6 @@
 
 
 \section{Login to midway}
-\subsection{Login to midway: yubikey}
-\begin{frame}[fragile]
-  \frametitle{Login to midway: yubikey}
-  \begin{itemize}
-    \item If you do not yet have a midway account, I can provide a guest account using yubikey
-    \item However, notice: it does not work with ThinLinc or Jupyter, only ssh
-    \includegraphics[width=2.3cm]{icons/yubikey1a.jpg}
-    \includegraphics[width=2cm]{icons/yubikey2a.jpg}
-    \includegraphics[width=5cm]{icons/yubikey3a.jpg}
-  \item Use the last 4 digits of yubikey {\color{mycolorcli}\verb|<XXXX>|} as part of userid:
-    {\color{mycolorcli}
-\begin{verbatim}                                                                                                                                                                              
-ssh -Y rccguest<XXXX>@midway2.rcc.uchicago.edu                                                                                                                                                
-\end{verbatim}
-    }
-    Push the button when asked for password
-  \item Please, do not forget to return it at the end of the class
-  \end{itemize}
-\end{frame}
 
 \subsection{Login to midway: ssh}
 \begin{frame}[fragile]
@@ -320,7 +301,7 @@ Another useful related page: {\color{mycolorcli}\verb|https://2fa.rcc.uchicago.e
 {\small
 {\color{mycolorcli}
 \begin{verbatim}
-git clone https://git.rcc.uchicago.edu/ivy2/Linux.git
+git clone https://github.com/igory1999/Linux.git
 \end{verbatim}
 }
 }
@@ -1149,9 +1130,6 @@ sinteractive -p gpu2 --gres=gpu:1 --time=5:00:00
   \end{itemize}
 
 \end{frame}
-
-\section{Appendix: Tutorials on Demand}
-\input{TutorialsOnDemand.tex}
 
 \end{document}
 
