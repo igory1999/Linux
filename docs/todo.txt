@@ -1,7 +1,8 @@
-Clean labs from old files
+Remove midway 1
 
-Include wildcards
+Add quota, rcchelp qos, sinfo
 
-What's with xmobaxterm? Why in some modes special characters work and in some they don't?
+What's with xmobaxterm? Why in some modes special characters work and in some don't?
 
 Warn students in advance about 3 attempts.
+
